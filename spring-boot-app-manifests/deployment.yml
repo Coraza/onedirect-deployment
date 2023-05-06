@@ -17,6 +17,7 @@ spec:
       containers:
       - name: spring-boot-app
         image: 10.160.15.36/sample/demo:38
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
       imagePullSecrets:
