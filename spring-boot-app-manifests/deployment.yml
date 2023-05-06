@@ -19,3 +19,5 @@ spec:
         image: 10.160.15.36/sample/demo:38
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+      - name: regcred
