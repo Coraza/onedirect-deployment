@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: harborreg.onedirect.in/sample/demo:38
+        image: harborreg.onedirect.in/sample/demo:39
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
